@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lin Liu | Rongmao Chen</title>
+    <link>https://chankamyung.github.io/authors/lin-liu/</link>
+      <atom:link href="https://chankamyung.github.io/authors/lin-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lin Liu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chankamyung.github.io/authors/lin-liu/avatar_hu51c47fdd9aebe4e97ffeea64c44749ac_526495_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Lin Liu</title>
+      <link>https://chankamyung.github.io/authors/lin-liu/</link>
+    </image>
+    
+    <item>
+      <title>Towards Practical Privacy-Preserving Decision Tree Training and Evaluation in the Cloud</title>
+      <link>https://chankamyung.github.io/publication/2020-tifs/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-tifs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure and Fast Decision Tree Evaluation on Outsourced Cloud Data</title>
+      <link>https://chankamyung.github.io/publication/2019-ml4cs/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-ml4cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Highly Secure Yet Efficient KNN Classification Scheme on Outsourced Cloud Data</title>
+      <link>https://chankamyung.github.io/publication/2019-itj/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-itj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-Preserving Mining of Association Rule on Outsourced Cloud Data from Multiple Parties</title>
+      <link>https://chankamyung.github.io/publication/2018-acisp-2/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2018-acisp-2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

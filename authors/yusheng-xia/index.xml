@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yusheng Xia | Rongmao Chen</title>
+    <link>https://chankamyung.github.io/authors/yusheng-xia/</link>
+      <atom:link href="https://chankamyung.github.io/authors/yusheng-xia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yusheng Xia</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chankamyung.github.io/authors/yusheng-xia/avatar_huf8f479b3c11f220651bba858aa70d82d_89065_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yusheng Xia</title>
+      <link>https://chankamyung.github.io/authors/yusheng-xia/</link>
+    </image>
+    
+    <item>
+      <title>Hybrid Routing: Balancing Anonymity and Resilience in Anonymous Communication Networks</title>
+      <link>https://chankamyung.github.io/publication/2020-cs/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APGS: An Efficient Source-Accountable and Metadata-Private Protocol in the Network Layer</title>
+      <link>https://chankamyung.github.io/publication/2021-tifs/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2021-tifs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid Routing: Towards Resilient Routing in Anonymous Communication Networks</title>
+      <link>https://chankamyung.github.io/publication/2020-icc/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-icc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

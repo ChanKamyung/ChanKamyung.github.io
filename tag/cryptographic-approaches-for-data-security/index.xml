@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryptographic Approaches for Data Security | Rongmao Chen</title>
+    <link>https://chankamyung.github.io/tag/cryptographic-approaches-for-data-security/</link>
+      <atom:link href="https://chankamyung.github.io/tag/cryptographic-approaches-for-data-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cryptographic Approaches for Data Security</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chankamyung.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Cryptographic Approaches for Data Security</title>
+      <link>https://chankamyung.github.io/tag/cryptographic-approaches-for-data-security/</link>
+    </image>
+    
+    <item>
+      <title>Message-Locked Searchable Encryption: A New Versatile Tool for Secure Cloud Storage</title>
+      <link>https://chankamyung.github.io/publication/2020-tsc/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-tsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-enhanced remote data integrity checking with updatable timestamp</title>
+      <link>https://chankamyung.github.io/publication/2020-isci/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-isci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure and Fast Decision Tree Evaluation on Outsourced Cloud Data</title>
+      <link>https://chankamyung.github.io/publication/2019-ml4cs/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-ml4cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Practical Authentication Framework for VANETs</title>
+      <link>https://chankamyung.github.io/publication/2019-scn/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-scn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient $k$-out-of-$n$ Oblivious Transfer Scheme with the Ideal Communication Cost</title>
+      <link>https://chankamyung.github.io/publication/2018-tcs/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2018-tcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure Channel Free ID-Based Searchable Encryption for Peer-to-Peer Group</title>
+      <link>https://chankamyung.github.io/publication/2016-jcst/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-jcst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server-Aided Public Key Encryption With Keyword Search</title>
+      <link>https://chankamyung.github.io/publication/2016-tifs-2/</link>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-tifs-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anonymous Identity-Based Broadcast Encryption with Revocation for File Sharing</title>
+      <link>https://chankamyung.github.io/publication/2016-acisp-2/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-acisp-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual-Server Public-Key Encryption With Keyword Search for Secure Cloud Storage</title>
+      <link>https://chankamyung.github.io/publication/2016-tifs/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-tifs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BL-MLE: Block-Level Message-Locked Encryption for Secure Large File Deduplication</title>
+      <link>https://chankamyung.github.io/publication/2015-tifs/</link>
+      <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2015-tifs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A New General Framework for Secure Public Key Encryption with Keyword Search</title>
+      <link>https://chankamyung.github.io/publication/2015-acisp/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2015-acisp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

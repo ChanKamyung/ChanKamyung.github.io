@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yi Wang | Rongmao Chen</title>
+    <link>https://chankamyung.github.io/authors/yi-wang/</link>
+      <atom:link href="https://chankamyung.github.io/authors/yi-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yi Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chankamyung.github.io/authors/yi-wang/avatar_hu292a1345c5b0fc65f4fafb5577dd842a_97693_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yi Wang</title>
+      <link>https://chankamyung.github.io/authors/yi-wang/</link>
+    </image>
+    
+    <item>
+      <title>A Practical Authentication Framework for VANETs</title>
+      <link>https://chankamyung.github.io/publication/2019-scn/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-scn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security of Auditing Protocols Against Subversion Attacks</title>
+      <link>https://chankamyung.github.io/publication/2020-ijfcs/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-ijfcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asymmetric Subversion Attacks on Signature and Identification Schemes</title>
+      <link>https://chankamyung.github.io/publication/2019-puc/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-puc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asymmetric Subversion Attacks on Signature Schemes</title>
+      <link>https://chankamyung.github.io/publication/2018-acisp/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2018-acisp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
