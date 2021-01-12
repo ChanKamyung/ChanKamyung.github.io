@@ -1,0 +1,104 @@
+{{/* People Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $show_social := $page.Params.design.show_social | default false }}
+{{ $show_interests := $page.Params.design.show_interests | default true }}
+{{ $show_organizations := $page.Params.design.show_organizations | default false }}
+{{ $show_role := $page.Params.design.show_role | default true }}
+
+<div class="row">
+	<div class="col-12 col-md-2 section-heading">
+		{{ with $page.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+		{{ with $page.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    </div>
+
+	<div class="col-12 col-md-10">
+		{{ $page.Content }}
+
+		<ul class="ul-students"  style="margin-left:40px">
+				
+			{{ range $page.Params.content.user_groups }}
+				{{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+
+				{{ $group_name := . }}
+				{{if $query}}
+					{{if eq . "Crypto Team"}} <!--不显示 Crypto Team-->
+						<!--<div class="row comment"><h5 class="mb-4"> </h5></div>-->
+					{{else}}
+						<div class="row comment">
+							<h5>{{ . | markdownify }}</h5> <!--小组名-->
+						</div>
+					{{end}}
+				{{end}}
+
+			
+				{{ range $query }}
+					{{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+					{{/* Get link to user's profile page. */}}
+					{{ $link := "" }}
+					{{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+						{{ $link = .RelPermalink }}
+					{{ end }}
+				
+					{{ $src := "" }}
+					{{ if site.Params.avatar.gravatar }}
+						{{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
+					{{ else if $avatar }}
+						{{ $avatar_image := $avatar.Fill "150x150 Center" }}
+						{{ $src = $avatar_image.RelPermalink }}
+					{{ end }}
+						
+					{{if eq $group_name "Alumni"}}
+						<div class="row comment">
+							- &nbsp;
+							<div class="col-xs-3">
+								{{with $link}}
+									<a href="{{ . }}" class=comment>
+								{{end}}
+									{{ .Title }}
+								{{if $link}}
+									</a>
+								{{end}}
+							</div>
+							
+							<div class="col-xs-3">
+								{{ if and $show_role .Params.role }}, &nbsp;{{ .Params.role | markdownify | emojify }}{{ end }}
+							</div>
+							
+							<!--<div class="col-xs-6">
+								{{ if and $show_interests .Params.interests }}, &nbsp;{{ delimit .Params.interests ", " | markdownify | emojify }}{{ end }}
+							</div>-->
+	 
+						</div>
+						
+					{{else}}
+						{{ if $src }}
+							{{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+					
+							<li class="ul-students" title="{{.Title}}">
+								{{with $link}}
+									<a href="{{.}}">
+								{{end}}
+					
+								<img class="studentpic" src="{{ $src }}" alt="Avatar">
+						
+								{{if $link}}
+									</a>
+								{{end}}
+								
+								<!--<h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
+								{{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
+								{{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
+								{{ if $show_social }}{{ partial "social_links" . }}{{ end }}
+								{{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+								-->
+							</li>
+						{{end}}
+					{{ end }}
+				{{end}}
+			{{ end }}
+		</ul>	
+	</div>
+</div>

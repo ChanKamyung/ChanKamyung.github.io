@@ -1,0 +1,25 @@
+# Theme metadata
+name = "wtm3ln"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#0066cc" #主题颜色
+primary_light = "#6ec6ff"
+primary_dark = "#0069c0"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#0099cc"
+menu_text_active = "#003366"
+menu_title = "#000066"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+# home_section_even = "rgb(247, 247, 247)"
+home_section_even = "rgb(255, 255, 255)"
+
+[dark]
+  link = "#bbdefb"
+  link_hover = "#bbdefb"

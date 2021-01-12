@@ -1,0 +1,163 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!--/* News */-->
+{{ $news_page_path := (printf "/news") }}
+{{ $news_page := site.GetPage $news_page_path }}
+{{ if not $news_page }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `news` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $news_page_path }}
+{{end}}
+{{ $news := $news_page.Params }}
+
+<!--/* Featured */-->
+{{/* Initialise */}}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "publication" }}
+{{ $items_count := $st.Params.content.count | default 65535 }}
+{{ $items_sort := $st.Params.content.order| default "desc" }}
+{{ $items_view := $st.Params.design.view| default 4 }}
+
+{{/* Query */}}
+{{ $query := where (where site.RegularPages "Type" $items_type) "Params.featured_first" true }}
+{{ $archive_page := site.GetPage "Section" $items_type }}
+
+{{/* Query-2 */}}
+{{ $query2 := where (where site.RegularPages "Type" $items_type) "Params.featured_second" true }}
+{{ $archive_page2 := site.GetPage "Section" $items_type }}
+
+{{/* Filters */}}
+{{ if $st.Params.content.filters.tag }}
+  {{ $archive_page := site.GetPage (printf "tags/%s" (urlize $st.Params.content.filters.tag)) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.category }}
+  {{ $archive_page := site.GetPage (printf "categories/%s" (urlize $st.Params.content.filters.category)) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.publication_type }}
+  {{ $archive_page := site.GetPage (printf "publication_types/%s" $st.Params.content.filters.publication_type) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.author }}
+  {{ $archive_page = site.GetPage (printf "authors/%s" (urlize $st.Params.content.filters.author)) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+
+{{ $count := len $query }}
+
+{{/* Sort */}}
+{{ $sort_by := "Date" }}
+{{ $query = sort $query $sort_by $items_sort }}
+
+{{/* Sort2 */}}
+{{ $query2 = sort $query2 $sort_by $items_sort }}
+
+{{/* Limit */}}
+{{ $query = first $items_count $query }}
+
+{{/* Localisation */}}
+{{ $i18n := "" }}
+{{ if eq $items_type "post" }}
+  {{ $i18n = "more_posts" }}
+{{ else if eq $items_type "event" }}
+  {{ $i18n = "more_talks" }}
+{{ else if eq $items_type "publication" }}
+  {{ $i18n = "more_publications" }}
+{{ else }}
+  {{ $i18n = "more_pages" }}
+{{ end }}
+
+<!--/* Team */-->
+{{ $show_social := $page.Params.design.show_social | default false }}
+{{ $show_interests := $page.Params.design.show_interests | default true }}
+{{ $show_organizations := $page.Params.design.show_organizations | default false }}
+{{ $show_role := $page.Params.design.show_role | default true }}
+
+<div class="row">
+	
+		<div class="col-md-4">
+	<div style="margin-right:0rem">
+		<div class="portrait-title"><h2>News&nbsp;<a href="/news" class="fas fa-angle-right"></a></h2></div>
+
+		<!-- News -->
+		{{ if $news.news }}
+			{{ $exp_len := len $news.news }}
+			{{ range $idx, $key := sort $news.news ".year" "desc" }}
+				<div class="row experience">
+					<!-- Content -->
+					<div class="col py-2">
+						<div class="card">
+							<div class="card-body">
+								{{with .description}}<div class="card-text jr_content" style="margin-left:-1.5rem">{{. | markdownify | emojify}}</div>{{end}}
+								{{ $archive_text := default "See all" }}
+								<a href="/news">
+									Click Here to See More News
+									<i class="fas fa-angle-right"></i>
+								</a>
+			
+							</div>
+						</div>
+					</div>
+				</div>
+			{{end}}
+		{{end}}
+		
+		
+		 
+		
+	</div></div>
+	
+	<div class="col-md-1"></div>
+	
+	<div class="col-md-7">
+	<div  style="margin-left:0rem">
+	<div class="portrait-title"><h2>Featured Publication&nbsp;<a href="/publication" class="fas fa-angle-right"></a></h2><h3>&nbsp;</h3></div>
+  {{ range $post := $query }}
+    {{ if eq $items_view 1 }}
+      {{ partial "li_list" . }}
+    {{ else if eq $items_view 3 }}
+      {{ partial "li_card" . }}
+    {{ else if eq $items_view 4 | and (eq $items_type "publication") }}
+      {{ partial "my_li_citation" . }}
+    {{ else }}
+      {{ partial "li_compact" . }}
+    {{ end }}
+  {{end}}
+  
+  {{ range $post2 := $query2 }}
+    {{ if eq $items_view 1 }}
+      {{ partial "li_list" . }}
+    {{ else if eq $items_view 3 }}
+      {{ partial "li_card" . }}
+    {{ else if eq $items_view 4 | and (eq $items_type "publication") }}
+      {{ partial "my_li_citation" . }}
+    {{ else }}
+      {{ partial "li_compact" . }}
+    {{ end }}
+  {{end}}
+
+  <!--{{/* Archive link */}}
+  {{ $show_archive_link := $st.Params.content.archive.enable | default (gt $count $items_count) }}
+  {{ if $show_archive_link }}
+
+    {{ $archive_link := "" }}
+    {{ if $st.Params.content.archive.link }}
+      {{ $archive_link = $st.Params.content.archive.link | relLangURL }}
+    {{ else }}
+      {{ $archive_link = $archive_page.RelPermalink }}
+    {{ end }}
+
+    {{ $archive_text := $st.Params.content.archive.text | default (i18n $i18n) | default "See all" }}
+
+    <div class="see-all">
+      <a href="{{ $archive_link }}">
+        {{ $archive_text | emojify }}
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+  {{ end }}-->
+  
+ </div>
+	
+	
+</div>

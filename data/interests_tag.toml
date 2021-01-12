@@ -1,0 +1,7 @@
+# Interests tag.
+# Each item in the list corresponds to an item in the language packs.
+types = [ "Subversion-Resilient Cryptography",
+          "Provable-Security Cryptography",
+          "Cryptographic Approaches for Data Security",
+          "Cryptographic Protocols for Privacy-Oriented Applications"
+        ]
