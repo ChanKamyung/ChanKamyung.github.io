@@ -1,0 +1,3 @@
+
+
+Identity-based revocation system: Enhanced security model and scalable bounded IBRS construction with short parameters. Peng Jiang, Jianchang Lai, Fuchun Guo, Willy Susilo, Man Ho Au, Guomin Yang, Yi Mu and Rongmao Chen. Information Science. 2019 | [CCF B] | [JCR Q1]

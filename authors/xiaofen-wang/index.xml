@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaofen Wang | Rongmao Chen</title>
+    <link>https://chankamyung.github.io/authors/xiaofen-wang/</link>
+      <atom:link href="https://chankamyung.github.io/authors/xiaofen-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaofen Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chankamyung.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Xiaofen Wang</title>
+      <link>https://chankamyung.github.io/authors/xiaofen-wang/</link>
+    </image>
+    
+    <item>
+      <title>Secure Channel Free ID-Based Searchable Encryption for Peer-to-Peer Group</title>
+      <link>https://chankamyung.github.io/publication/2016-jcst/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-jcst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server-Aided Public Key Encryption With Keyword Search</title>
+      <link>https://chankamyung.github.io/publication/2016-tifs-2/</link>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-tifs-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-Preserving Data Search and Sharing Protocol for Social Networks through Wireless Applications</title>
+      <link>https://chankamyung.github.io/publication/2017-ccpe/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2017-ccpe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-Round Privacy-Preserving Meeting Location Determination for Smartphone Applications</title>
+      <link>https://chankamyung.github.io/publication/2016-tifs-3/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-tifs-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual-Server Public-Key Encryption With Keyword Search for Secure Cloud Storage</title>
+      <link>https://chankamyung.github.io/publication/2016-tifs/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-tifs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A New General Framework for Secure Public Key Encryption with Keyword Search</title>
+      <link>https://chankamyung.github.io/publication/2015-acisp/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2015-acisp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

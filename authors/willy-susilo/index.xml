@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Willy Susilo | Rongmao Chen</title>
+    <link>https://chankamyung.github.io/authors/willy-susilo/</link>
+      <atom:link href="https://chankamyung.github.io/authors/willy-susilo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Willy Susilo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chankamyung.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Willy Susilo</title>
+      <link>https://chankamyung.github.io/authors/willy-susilo/</link>
+    </image>
+    
+    <item>
+      <title>Message-Locked Searchable Encryption: A New Versatile Tool for Secure Cloud Storage</title>
+      <link>https://chankamyung.github.io/publication/2020-tsc/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-tsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strongly leakage resilient authenticated key exchange, revisited</title>
+      <link>https://chankamyung.github.io/publication/2019-dcc/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-dcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identity-based revocation system: Enhanced security model and scalable bounded IBRS construction with short parameters</title>
+      <link>https://chankamyung.github.io/publication/2019-isci/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-isci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Security Reductions for Unique Signatures: Bypassing Impossibilities with a Counterexample</title>
+      <link>https://chankamyung.github.io/publication/2017-crypto/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2017-crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptographic Reverse Firewall via Malleable Smooth Projective Hash Functions</title>
+      <link>https://chankamyung.github.io/publication/2016-asiacrypt/</link>
+      <pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-asiacrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterated Random Oracle: A Universal Approach for Finding Loss in Security Reduction</title>
+      <link>https://chankamyung.github.io/publication/2016-asiacrypt-2/</link>
+      <pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-asiacrypt-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strong Authenticated Key Exchange with Auxiliary Inputs</title>
+      <link>https://chankamyung.github.io/publication/2017-dcc/</link>
+      <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2017-dcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anonymous Identity-Based Broadcast Encryption with Revocation for File Sharing</title>
+      <link>https://chankamyung.github.io/publication/2016-acisp-2/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-acisp-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-Round Strong Oblivious Signature-Based Envelope</title>
+      <link>https://chankamyung.github.io/publication/2016-acisp/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-acisp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recipient Revocable Identity-Based Broadcast Encryption: How to Revoke Some Recipients in IBBE without Knowledge of the Plaintext</title>
+      <link>https://chankamyung.github.io/publication/2016-asiaccs/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-asiaccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strongly Leakage-Resilient Authenticated Key Exchange</title>
+      <link>https://chankamyung.github.io/publication/2016-ct-rsa/</link>
+      <pubDate>Mon, 29 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2016-ct-rsa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ximeng Liu | Rongmao Chen</title>
+    <link>https://chankamyung.github.io/authors/ximeng-liu/</link>
+      <atom:link href="https://chankamyung.github.io/authors/ximeng-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ximeng Liu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chankamyung.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Ximeng Liu</title>
+      <link>https://chankamyung.github.io/authors/ximeng-liu/</link>
+    </image>
+    
+    <item>
+      <title>Towards Practical Privacy-Preserving Decision Tree Training and Evaluation in the Cloud</title>
+      <link>https://chankamyung.github.io/publication/2020-tifs/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2020-tifs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Highly Secure Yet Efficient KNN Classification Scheme on Outsourced Cloud Data</title>
+      <link>https://chankamyung.github.io/publication/2019-itj/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2019-itj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-Preserving Biometric-Based Remote User Authentication with Leakage Resilience</title>
+      <link>https://chankamyung.github.io/publication/2018-securecomm/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2018-securecomm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-Preserving Mining of Association Rule on Outsourced Cloud Data from Multiple Parties</title>
+      <link>https://chankamyung.github.io/publication/2018-acisp-2/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://chankamyung.github.io/publication/2018-acisp-2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>在线演示 DIVCSS5</title> 
+<style> 
+.divcss5{ width:50%; height:auto} 
+h2 {font-family:Georgia;}
+.jr_content {
+font-family:Georgia;
+	/* 防止撑开 */
+	table-layout: fixed;
+
+	/* 英文单字因自动换行 */
+	word-wrap: break-word;
+
+	/* 正常避头尾 */
+	word-break: normal;
+
+	/* 文字左右对齐 */
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.jr_content .row{
+	margin: -20px 0px 0px -15px;
+}
+
+</style> 
+</head> 
+<body> 
+<div class="divcss5 jr_content"> 
+Authenticated Key Exchange (AKE) protocols allow two (or multiple) parties to authenticate each other and agree on a common secret key, which is essential for establishing a secure communication channel over a public network. AKE protocols form a central component in many network security standards such as IPSec, TLS/SSL, and SSH. However, it has been demonstrated that many standardized AKE protocols are vulnerable to side-channel and key leakage attacks. In order to defend against such attacks, leakage resilient (LR-) AKE protocols have been proposed in the literature. Nevertheless, most of the existing LR-AKE protocols only focused on the resistance to long-term key leakage, while in reality leakage of ephemeral secret key (or randomness) can also occur due to various reasons such as the use of poor randomness sources or insecure pseudo-random number generators (PRNGs). In this paper, we revisit the strongly leakage resilient AKE protocol (CT-RSA’16) that aimed to resist challenge-dependent leakage on both long-term and ephemeral secret keys. We show that there is a security issue in the design of the protocol and propose an improved version that can fix the problem. In addition, we extend the protocol to a more general framework that can be efficiently instantiated under various assumptions, including hybrid instantiations that can resist key leakage attacks while preserving session key security against future quantum machines.
+</div></body> 
+</html> 
